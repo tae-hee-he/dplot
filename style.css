@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+*{
+    font-family: 'Pretendard-Regular';
+    margin: 0px;
+    padding: 0px;
+}
+.promotion{
+    width: 800px;
+    margin: 0 auto;
+}
+.main_img{
+    height: 1000px;
+}
+.main_img>img{
+height: 100%;
+
+}
+.head{
+    display: flex;
+}
+.head>div{
+    padding: 32px 20px 0px 32px;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding: 20px 0px;
+    font-size:20px;
+}
+.nav{
+    position:sticky;
+    height: 50px;
+    top:0px;
+    z-index: 1;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    text-align: center;
+}
+.nav>li{
+   list-style: none;
+   padding: 10px 0px;
+}
+.nav>li>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+#intro{
+    background-color: rgb(11, 11, 41);
+}
+.info{
+    background-image: url(https://img.dplot.co.kr/img/item/31/14831P_1720679121890.jpg);
+    background-size: cover;
+    opacity: 60%;
+    background-position: 0px -150px;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+justify-content: center;
+}
+.info>p{
+    opacity: 100% !important;
+    color: #fff;
+    font-family: "Nanum Myeongjo", serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2.5;
+}
+#coupon{
+    height: 700px;
+}
+.products{
+    padding-top: 104px;
+}
+.products-01{
+    position: relative;
+    margin-bottom: 80px;
+
+}
+.items>img{
+width: 100%;
+}
+.brand-name{
+    width: 200px;
+    margin: 0 auto;
+}
+.brand-name>p{
+    font-weight: 800;
+    position: absolute;
+    top: 40px; 
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+.brand-info{
+    margin: 0 auto;
+
+}
+.brand-info>p{
+    position: absolute;
+    top: 80px;
+    width: 800px;
+    font-size: 16px;
+    text-align: center;
+}
+.brand-add{
+ width: 100px;
+ margin: 0 auto;
+}
+.brand-add>a{
+    position: absolute;
+    top: 700px;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 40px;
+    border: solid 1px #fff;
+    border-radius: 15px;
+}
+.grid-item{
+    justify-content: center;
+    padding-top: 24px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 72px;
+    grid-template-rows: 1fr 1fr; 
+}
+.grid-item>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item>div>p{
+    width: 220px; 
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;  	
+    white-space: nowrap; 
+    word-break:break-all;
+}
+.grid-item>div>img{
+    width: 220px;
+}
+.products-name{
+    font-size: 16px;
+    margin: 6px 0px 0px 0px;
+}
+.products-cost{
+    font-size: 20px;
+    margin: 4px 0px 0px 0px;
+    font-weight: 700;
+}
